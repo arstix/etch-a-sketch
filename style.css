@@ -1,0 +1,48 @@
+* {
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+    background: #9E9E9E;
+    border: black 1px solid;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 0;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+
+}
+
+
+.row {
+    display: block;
+    float:left;
+    width:100%;
+    margin-left: 38%;
+}
+
+
+.box.active {
+background-color:  blue;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 2px solid;
+  background-color: green;
+  color: white;
+  font-family: sans-serif;
+  height: 50px;
+}
+
+.btn-2 {
+  border-radius: 8px;
+  border: 2px solid;
+  background-color: red;
+  font-family: sans-serif;
+  color: white;
+  height: 50px;
+}
